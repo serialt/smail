@@ -8,11 +8,11 @@ import (
 
 // Mailer 邮件配置
 type Mailer struct {
-	User     string `yaml:"user"`
-	Pass     string `yaml:"pass"`
-	Smtp     string `yaml:"smtp"`
-	Port     int    `yaml:"port"`
-	MailTo   []string
+	User     string   `yaml:"user"`
+	Pass     string   `yaml:"pass"`
+	Smtp     string   `yaml:"smtp"`
+	Port     int      `yaml:"port"`
+	MailTo   []string `yaml:"mailTo"`
 	Subject  string
 	Body     string
 	Filename string
